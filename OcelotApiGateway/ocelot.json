@@ -10,6 +10,22 @@
         }
       ],
       "UpstreamPathTemplate": "/services/customer-list",
+      "UpstreamHttpMethod": [ "Get", "Post","Put","Delete" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/auth",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 3000
+        }
+      ],
+      "UpstreamPathTemplate": "/services/login",
       "UpstreamHttpMethod": [ "Get" ]
     },
     {
@@ -26,6 +42,6 @@
     }
   ],
   "GlobalConfiguration": {
-    "BaseUrl": "https://localhost:5000"
+    "BaseUrl": "http://localhost:5000"
   }
 }

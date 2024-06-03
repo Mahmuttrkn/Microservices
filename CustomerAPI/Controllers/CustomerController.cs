@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CustomerAPI.Controllers
@@ -8,6 +9,7 @@ namespace CustomerAPI.Controllers
     public class CustomerController : ControllerBase
     {
         [HttpGet]
+        [Authorize]
         public IActionResult Get()
         {
             return Ok(new List<string> {"customer1","customer2" });
