@@ -6,7 +6,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": 5006
+          "Port": 5001
         }
       ],
       "UpstreamPathTemplate": "/services/customer-list",
