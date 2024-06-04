@@ -1,6 +1,6 @@
-﻿{
+{
   "profiles": {
-    "AuthAPI": {
+    "CustomerAPI": {
       "commandName": "Project",
       "launchBrowser": true,
       "launchUrl": "swagger",
@@ -8,7 +8,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
       "dotnetRunMessages": true,
-      "applicationUrl": "http://localhost:3000"
+      "applicationUrl": "http://localhost:7004"
     },
     "IIS Express": {
       "commandName": "IISExpress",
@@ -28,7 +28,7 @@
       "publishAllPorts": true
     }
   },
-  "$schema": "https://json.schemastore.org/launchsettings.json",
+  "$schema": "http://json.schemastore.org/launchsettings.json",
   "iisSettings": {
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
