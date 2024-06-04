@@ -22,7 +22,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": 3000
+          "Port": 7004
         }
       ],
       "UpstreamPathTemplate": "/services/login",
