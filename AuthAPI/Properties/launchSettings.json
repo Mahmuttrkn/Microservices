@@ -1,6 +1,6 @@
 {
   "profiles": {
-    "CustomerAPI": {
+    "AuthAPI": {
       "commandName": "Project",
       "launchBrowser": true,
       "launchUrl": "swagger",
